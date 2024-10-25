@@ -18,7 +18,7 @@ function App() {
         <div className="m-auto min-h-screen relative">
             {/* heading */}
             <header
-                className="bg-[url('./public/assets/images/mobile/image-hero.jpg')] sm:bg-[url('./public/assets/images/desktop/image-hero.jpg')] bg-cover bg-no-repeat p-5 md:px-32"
+                className="bg-[url('../public/assets/images/mobile/image-hero.jpg')] sm:bg-[url('../public/assets/images/desktop/image-hero.jpg')] bg-cover bg-no-repeat p-5 md:px-32"
                 style={{}}
             >
                 <nav
@@ -152,49 +152,49 @@ function App() {
                         our creations
                     </h2>
                     <div className="grid grid-cols-1 gap-5 sm:col-span-2 sm:grid-cols-2 md:grid-cols-4">
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-deep-earth.jpg')] sm:bg-[url('./public/assets/images/desktop/image-deep-earth.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-deep-earth.jpg')] sm:bg-[url('../public/assets/images/desktop/image-deep-earth.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-5/12 sm:w-1/2 left-5   ">
                                 Deep earth
                             </span>
                             <div className="absolute bottom-0 left-0 right-0 h-1/4 group-hover:h-full z-30 bg-gradient-to-t from-gray-700 group-hover:from-white to-transparent group-hover:to-white group-hover:opacity-50"></div>
                         </div>
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-night-arcade.jpg')] sm:bg-[url('./public/assets/images/desktop/image-night-arcade.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-night-arcade.jpg')] sm:bg-[url('../public/assets/images/desktop/image-night-arcade.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-5/12 sm:w-1/2 left-5   ">
                                 Night arcade
                             </span>
                             <div className="absolute bottom-0 left-0 right-0 h-1/4 group-hover:h-full z-30 bg-gradient-to-t from-gray-700 group-hover:from-white to-transparent group-hover:to-white group-hover:opacity-50"></div>
                         </div>
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-soccer-team.jpg')] sm:bg-[url('./public/assets/images/desktop/image-soccer-team.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-soccer-team.jpg')] sm:bg-[url('../public/assets/images/desktop/image-soccer-team.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-5/12 sm:w-1/2 left-5   ">
                                 Soccer team VR
                             </span>
                             <div className="absolute bottom-0 left-0 right-0 h-1/4 group-hover:h-full z-30 bg-gradient-to-t from-gray-700 group-hover:from-white to-transparent group-hover:to-white group-hover:opacity-50"></div>
                         </div>
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-grid.jpg')] sm:bg-[url('./public/assets/images/desktop/image-grid.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-grid.jpg')] sm:bg-[url('../public/assets/images/desktop/image-grid.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-4/12 sm:w-2/6 left-5   ">
                                 The grid
                             </span>
                             <div className="absolute bottom-0 left-0 right-0 h-1/4 group-hover:h-full z-30 bg-gradient-to-t from-gray-700 group-hover:from-white to-transparent group-hover:to-white group-hover:opacity-50"></div>
                         </div>
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-from-above.jpg')] sm:bg-[url('./public/assets/images/desktop/image-from-above.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-from-above.jpg')] sm:bg-[url('../public/assets/images/desktop/image-from-above.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-5/12 sm:w-1/2 left-5   ">
                                 From up above VR
                             </span>
                             <div className="absolute bottom-0 left-0 right-0 h-1/4 group-hover:h-full z-30 bg-gradient-to-t from-gray-700 group-hover:from-white to-transparent group-hover:to-white group-hover:opacity-50"></div>
                         </div>
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-pocket-borealis.jpg')] sm:bg-[url('./public/assets/images/desktop/image-pocket-borealis.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-pocket-borealis.jpg')] sm:bg-[url('../public/assets/images/desktop/image-pocket-borealis.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-5/12 sm:w-1/2 left-5   ">
                                 Pocket borealis
                             </span>
                             <div className="absolute bottom-0 left-0 right-0 h-1/4 group-hover:h-full z-30 bg-gradient-to-t from-gray-700 group-hover:from-white to-transparent group-hover:to-white group-hover:opacity-50"></div>
                         </div>
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-curiosity.jpg')] sm:bg-[url('./public/assets/images/desktop/image-curiosity.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-curiosity.jpg')] sm:bg-[url('../public/assets/images/desktop/image-curiosity.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-5/12 sm:w-1/2 left-5   ">
                                 The curiosity
                             </span>
                             <div className="absolute bottom-0 left-0 right-0 h-1/4 group-hover:h-full z-30 bg-gradient-to-t from-gray-700 group-hover:from-white to-transparent group-hover:to-white group-hover:opacity-50"></div>
                         </div>
-                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('./public/assets/images/mobile/image-fisheye.jpg')] sm:bg-[url('./public/assets/images/desktop/image-fisheye.jpg')]">
+                        <div className="bg-cover h-40 sm:h-[32rem] group text-white font-bold uppercase font-fontJosefin text-2xl relative bg-[url('../public/assets/images/mobile/image-fisheye.jpg')] sm:bg-[url('../public/assets/images/desktop/image-fisheye.jpg')]">
                             <span className="absolute group-hover:text-black z-40 bottom-5 w-5/12 sm:w-1/2 left-5   ">
                                 Make it fisheye
                             </span>
