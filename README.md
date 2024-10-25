@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop](./public/assets/images/Screenshot%202024-10-25%20at%2020-25-20%20Vite%20React.png)
+![desktop](./public/assets/images/Screenshot%202024-10-25%20at%2020-47-27%20Vite%20React.png)
 
 ### Links
 
