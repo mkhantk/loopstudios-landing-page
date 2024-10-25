@@ -115,7 +115,7 @@ function App() {
                         </div>
                     </div>
                 </nav>
-                <div className="ring-2 px-7 py-5 ring-white font-fontJosefin uppercase text-4xl lg:text-6xl lg:w-1/2 xl:w-1/3 text-start text-white my-40">
+                <div className="ring-2 px-7 py-5 ring-white font-fontJosefin uppercase text-4xl lg:text-6xl lg:w-1/2 2xl:w-1/3 text-start text-white my-40">
                     Immersive experiences that deliver
                 </div>
             </header>
