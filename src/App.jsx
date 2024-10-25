@@ -8,6 +8,8 @@ import insta from "./assets/images/icon-instagram.svg";
 import pint from "./assets/images/icon-pinterest.svg";
 import tt from "./assets/images/icon-twitter.svg";
 import logo from "./assets/images/logo.svg";
+import intmob from "./assets/images/image-interactive-mobile.jpg";
+import intdesk from "./assets/images/image-interactive.jpg";
 
 import "./App.css";
 
@@ -121,14 +123,8 @@ function App() {
             <main className="p-5 md:px-32 py-24 m-auto max-w-[1440px]">
                 <div id="vr" className="m-auto my-20 sm:relative">
                     <picture className="">
-                        <source
-                            media="(max-width: 640px)"
-                            srcSet="../public/assets/images/mobile/image-interactive.jpg"
-                        />
-                        <source
-                            media="(min-width: 640px)"
-                            srcSet="../public/assets/images/desktop/image-interactive.jpg"
-                        />
+                        <source media="(max-width: 640px)" srcSet={intmob} />
+                        <source media="(min-width: 640px)" srcSet={intdesk} />
                         <img src="" alt="" />
                     </picture>
                     <div className="px-3 py-10 bg-white lg:w-6/12 lg:absolute lg:right-0 lg:-bottom-28 lg:p-28 lg:pr-0">
