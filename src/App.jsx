@@ -123,11 +123,11 @@ function App() {
                     <picture className="">
                         <source
                             media="(max-width: 640px)"
-                            srcSet="./public/assets/images/mobile/image-interactive.jpg"
+                            srcSet="../public/assets/images/mobile/image-interactive.jpg"
                         />
                         <source
                             media="(min-width: 640px)"
-                            srcSet="./public/assets/images/desktop/image-interactive.jpg"
+                            srcSet="../public/assets/images/desktop/image-interactive.jpg"
                         />
                         <img src="" alt="" />
                     </picture>
